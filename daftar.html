@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daftar — SkinCode</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="daftar.css">
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <a href="index.html" class="logo">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 2c3 4 6 7.5 6 11a6 6 0 0 1-12 0c0-3.5 3-7 6-11Z" stroke="#BFE0F2" stroke-width="1.6"/></svg>
+      SkinCode
+    </a>
+    <nav class="primary">
+      <a href="about.html" class="muted">About Us</a>
+      <a href="masuk.html">Masuk</a>
+      <a href="daftar.html" class="btn btn-blue active">Daftar</a>
+    </nav>
+  </div>
+</header>
+
+<section class="auth-section">
+  <div class="auth-card">
+    <h1>Buat Akun SkinCode</h1>
+    <p class="sub">Simpan wishlist, catat rutinitas, dan beri ulasan produk.</p>
+    <form onsubmit="return false">
+      <div class="field">
+        <label for="nama">Nama lengkap</label>
+        <input id="nama" type="text" placeholder="Nama kamu" required>
+      </div>
+      <div class="field">
+        <label for="email-daftar">Email</label>
+        <input id="email-daftar" type="email" placeholder="nama@email.com" required>
+      </div>
+      <div class="field">
+        <label for="pass-daftar">Kata sandi</label>
+        <input id="pass-daftar" type="password" placeholder="Minimal 8 karakter" required>
+      </div>
+      <button type="submit" class="btn btn-blue btn-block">Buat Akun</button>
+    </form>
+    <p class="switch-line">Sudah punya akun? <a href="masuk.html">Masuk di sini</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo">SkinCode</span>
+        <p>Temukan rutinitas perawatan kulit yang cocok, dipandu data dan ulasan komunitas.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Jelajahi</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Akun</h4>
+          <ul>
+            <li><a href="masuk.html">Masuk</a></li>
+            <li><a href="daftar.html">Daftar</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Ikuti Kami</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SkinCode. Semua hak dilindungi.</span>
+      <span>Dibuat untuk siapa saja yang ingin merawat kulitnya.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
